@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#080e20"><meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Earth Defence · Orbit Arcade</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a class="brand" href="#">◈ <span>ORBIT<small>ARCADE COLLECTION</small></span></a><span class="edition">VOL. 01 <b>THE FIRST CONTACT</b></span><button id="sound" aria-label="Toggle sound">SOUND OFF</button></header>
+<main>
+  <section class="intro"><div class="eyebrow"><i></i> THE ARCADE, REIMAGINED</div><h1>One planet.<br>One last <em>defender.</em></h1><p>The classics brought us here. A new generation takes us further.<br>Take the controls. Make your stand.</p></section>
+  <section class="cabinet">
+    <div class="game-heading"><div><span class="eyebrow">01 / FIXED SHOOTER</span><h2>EARTH DEFENCE<span>ED</span></h2></div><span class="live"><i></i> READY TO DEPLOY</span></div>
+    <div class="stage"><canvas id="game" width="720" height="800" aria-label="Earth Defence arcade game"></canvas><div id="overlay"><span class="eyebrow">INCOMING TRANSMISSION</span><h3>THIS IS OUR<br><em>LAST LINE.</em></h3><p>Push back the fleet. Protect our home.</p><button id="play">DEPLOY FIGHTER <span>↗</span></button><small>KEYBOARD OR TOUCH · NO QUARTERS NEEDED</small></div><button id="pause" aria-label="Pause game" hidden>Ⅱ</button></div>
+    <div class="hud"><div><small>SCORE</small><strong id="score">00000</strong></div><div><small>WAVE</small><strong id="wave">01</strong></div><div><small>SHIELDS</small><strong id="lives">◆ ◆ ◆</strong></div><div><small>PERSONAL BEST</small><strong id="best">00000</strong></div></div>
+    <div class="touch"><button id="left" aria-label="Move left">◀</button><button id="right" aria-label="Move right">▶</button><button id="dash">DASH</button><button id="fire">FIRE ●</button></div>
+  </section>
+  <section class="below"><div><span class="eyebrow">THE MISSION</span><h3>Familiar instinct.<br>Fresh firepower.</h3><p>Read the formation. Find your opening. Survive an ever-faster fleet with a fighter built to move.</p></div><div class="controls"><div><kbd>←</kbd><kbd>→</kbd><span>MOVE YOUR FIGHTER</span></div><div><kbd>SPACE</kbd><span>HOLD TO FIRE</span></div><div><kbd>SHIFT</kbd><span>DASH THROUGH DANGER</span></div><div><kbd>P</kbd><span>PAUSE / RESUME</span></div></div></section>
+  <footer><span>THE COLLECTION</span><b>01 <span>EARTH DEFENCE</span></b><span>02 / NEXT SIGNAL COMING SOON</span></footer>
+</main><script src="game.js"></script>
+</body></html>
