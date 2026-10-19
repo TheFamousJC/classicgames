@@ -1,25 +1,27 @@
-# Classic Games
+# Orbit Games by 3Sci Labs
 
-A collection of reimagined arcade games for a future Android and iOS bundle.
+[Play all five games](https://thefamousjc.github.io/classicgames/)
 
-## Play
+A browser-playable collection of five reimagined arcade games, with original canvas visuals, keyboard and touch controls, pause/resume, escalating levels, and local best scores.
 
-[Play Earth Defence](https://thefamousjc.github.io/classicgames/earth-defence/)
+| Game | Play | Controls |
+| --- | --- | --- |
+| Earth Defence | [Deploy](https://thefamousjc.github.io/classicgames/earth-defence/) | Arrows or A/D, Space to fire, Shift to dash |
+| Gobbler | [Enter maze](https://thefamousjc.github.io/classicgames/play.html?game=gobbler) | Arrows or WASD |
+| Meteors | [Launch](https://thefamousjc.github.io/classicgames/play.html?game=meteors) | Left/right rotate, up thrust, Space fire |
+| Gorillaz | [Climb](https://thefamousjc.github.io/classicgames/play.html?game=gorillaz) | Left/right run, up/down climb, Space jump |
+| Star Shooter | [Fly](https://thefamousjc.github.io/classicgames/play.html?game=shooter) | Left/right strafe, up/down altitude, Space fire |
 
-Earth Defence is the first playable web prototype. Use arrows or A/D to move, Space to fire, Shift to dash, and P to pause. Touch controls appear on touch devices. Open `earth-defence/index.html` locally to play without a build step.
+Press P to pause. On-screen buttons support touch. Each game has three lives and unlimited escalating levels. Gobbler has power cores, Meteors has splitting rocks and inertia, Gorillaz has rolling drums and ladders, and Star Shooter has altitude gates and drones.
 
-## Collection roadmap
+## Run locally
 
-| Order | Title | Inspiration | Status |
-| --- | --- | --- | --- |
-| 1 | Earth Defence | Space Invaders | Playable web prototype |
-| 2 | Gobbler | Pac-Man | Planned |
-| 3 | Meteors | Asteroids | Planned |
-| 4 | Gorillaz | Donkey Kong | Planned |
-| 5 | Star Shooter | Zaxxon | Planned |
+Open index.html in a browser or serve the repository with a static HTTP server. No build or dependency installation required. Earth Defence optionally loads Google Fonts; system fonts work offline.
 
-Each game will use original artwork, audio, level designs, and branding. Native Android and iOS packaging is planned after the web collection is developed and playtested.
+## Verification
 
-## Hosting
+Run `node tests/smoke.cjs` for headless gameplay checks of the four new engines, including maze connectivity, rock splitting, ladder traversal, gate collisions, scoring, game over, restart, and pause. These use a simulated canvas/DOM and complement browser playtesting.
 
-GitHub Pages serves the repository root from the `main` branch. The root opens Earth Defence. No dependencies or build step are required.
+## Hosting and mobile
+
+GitHub Pages serves the repository root from main. This is a web prototype collection; signed Android and iOS apps are a future packaging step.

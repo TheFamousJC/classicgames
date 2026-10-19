@@ -1,4 +1,4 @@
-# Orbit Arcade — Earth Defence
+# Orbit Games by 3Sci Labs — Earth Defence
 
 First playable prototype of a mobile arcade collection. Original canvas visuals and synthesized sound; no copied game assets.
 
@@ -10,4 +10,4 @@ Keyboard: arrows or A/D to move, hold Space to fire, Shift to dash (2.5-second r
 
 This is a responsive web prototype, not an Android or iOS binary. Next steps: playtest and tune, add the collection's next games, then wrap the collection with Capacitor or migrate to a chosen native game engine. Native builds require Android tooling and macOS/Xcode for iOS, app icons, signing, and store configuration.
 
-The launcher currently uses the working title “Orbit Arcade”; the game's title is “Earth Defence”.
+The bundle is called “Orbit Games by 3Sci Labs”; the game's title is “Earth Defence”.
